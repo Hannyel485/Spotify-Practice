@@ -1,0 +1,85 @@
+@media screen and (max-width: 990px){
+    header{
+        background: #000;
+    }
+
+    .sticky{
+        background: #000;
+    }
+
+    .lis{
+        display: none;
+    }
+
+    .icon-bar{
+        color: #fff;
+        font-size: 25px;
+        display: block;
+        transition: .3s;
+    }
+
+    .icon-bar:hover{
+        color: #4CD557;
+    }
+
+    .overlay{
+        position: absolute;
+        background: rgba(0, 0, 0, 0.514);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        z-index: 20;
+        justify-content: flex-end;
+        visibility: hidden;
+    }
+
+    .non-scroll{
+        overflow-y: hidden;
+    }
+    
+    .active{
+        visibility: visible;
+    }
+    
+    .aside-bar{
+        position: relative;
+        background: #000;
+        width: 30px;
+        max-width: 30vw;
+        min-width: 30vw;
+    }
+    
+    .aside-bar ul{
+        list-style: none;
+        height: 60%;
+        padding: 50px 0;
+        margin: 20px 20px;
+    }
+    
+    .aside-bar ul li a{
+        font-size: 25px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .aside-bar ul li a:hover{
+        color: #4CD557;
+    }
+    
+    .lis-aside{
+        padding: 18px 0;
+    }
+    
+    .icon-exit{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 20px;
+        transition: all .2s;
+    }
+    
+    .icon-exit:hover{
+        color: #01DB12;
+    }
+}
